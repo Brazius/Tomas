@@ -1,15 +1,14 @@
 <html>
   <head>
-    <title><?php print 'Aš,'. date("l") . ' ir PHP' ?></title>
+    <title>Komentarai</title>
   </head>
   <body>
-      <h1><b>Tomas</b> - HTML <?php print 'ir PHP'?> asas jau nuo 
-          <?php print date("Y") . ' metų' ?>
-          
-      </h1>
-<p> Viskas prasidėjo <?php print date("m") . ' mėnesio, ' . date("d") .
-        ' dieną' ?></p>
+      <h1>Dainu tekstai</h1>
+      <h2>Paragrafo Daina</h2>
+      <p>
+          Aš toks vienišas jaunas pragrafas...</br>
+          MIndau svetimo kodo gatves...
+      </p>
 
-    
   </body>
 </html>
