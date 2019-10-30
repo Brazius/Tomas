@@ -2,44 +2,21 @@
     <head>
         <title>PHP lydės ir <?php print date('Y-m-d', strtotime('+' . rand(1, 10) . 'years')); ?></title>
         <style>
-            .kaul_1 {
-                background-image: url('1.png');
-                display: block; 
-                width: 139px;
-                height: 139px;
-            }
-            .kaul_2 {
-                background-image: url('2.png');
-                width: 139px;
-                height: 139px;
-            }
-            .kaul_3 {
-                background-image: url('3.png');
-                width: 139px;
-                height: 139px;
-            }
-            .kaul_4 {
-                background-image: url('4.png');
-                width: 139px;
-                height: 139px;
-            }
-            .kaul_5 {
-                background-image: url('5.png');
-                width: 139px;
-                height: 139px;
-            }
-            .kaul_6 {
-                background-image: url('6.png');
-                width: 139px;
-                height: 139px;
+            .bomb {
+                background-image: url('https://cdn.imgbin.com/2/8/12/imgbin-counter-strike-global-offensive-dota-2-bomb-c-4-grenade-fez4eKcEunfSmReJ0CiSRsPbJ.jpg');
+                width: <?php print date('s')?>px;
+                height:<?php print date('s')?>px;
+                background-size: cover;
+                background-position: center;
             }
 
         </style>
     </head>
     <body>
-        <div class= "kaul_<?php print rand(1, 6) ?> ">
+        <div class= "bomb">
             
         </div>
 
     </body>
+    
 </html>
