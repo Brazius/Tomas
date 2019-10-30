@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>UZduotis X</title>
+        <title>Užduotis X</title>
         <style>
             .bomb {
                 background-image: url('https://cdn.imgbin.com/2/8/12/imgbin-counter-strike-global-offensive-dota-2-bomb-c-4-grenade-fez4eKcEunfSmReJ0CiSRsPbJ.jpg');
