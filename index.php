@@ -38,7 +38,7 @@
     </head>
     <body>
         <div class= "kaul_<?php print rand(1, 6) ?> ">
-            <img src="1.png" alt="Smiley face" height="10" width="10"> 
+            
         </div>
 
     </body>
