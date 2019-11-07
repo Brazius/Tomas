@@ -1,7 +1,8 @@
 <?php
-$bouling = [
-    0 => [
-        0 => [
+$boulingo_takelis= [
+    0 =>[
+        'takelio_busena' => 'svarus',
+        'kegliu_busena' => [ // kegliai skaiciuojami is kairio virsutinio kampo i desine
            0 => '0',
            1 => '1',
            2 => '1',
@@ -11,11 +12,13 @@ $bouling = [
            7 => '1',
            8 => '0',
            9 => '0'
-        ]
+        ],
+        
         
     ],
-    1 => [
-        0 => '0',
+    'takelio_busena' => 'apmyztas',
+    'kegliu_busena' => [ // kegliai skaiciuojami is kairio virsutinio kampo i desine
+           0 => '1',
            1 => '1',
            2 => '1',
            3 => '1',
@@ -23,11 +26,10 @@ $bouling = [
            6 => '1',
            7 => '1',
            8 => '1',
-           9 => '1'
-        
+           9 => '1'  
     ]
 ];  
-var_dump($bouling);
+var_dump($boulingo_takelis);
 ?>
 <html>
     <head>
