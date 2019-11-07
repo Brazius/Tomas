@@ -1,17 +1,53 @@
 <?php
-$kiausinis = array(kiausas_1, kiausas_2);
-$baklazanas = array(bakl_1, bakl_2);
-$obuolys = array(obuolys_1, obuolys2);
+$gyvuliai = [
+    [
+        'vardas' => 'Petras',
+        'pavarde' => 'Pizdzius',
+        'item' => [
+            'telefonas' => [
+                'busena' => 'nera', 'naudojamas',
+                           ],
+                  ],
+            'power_bank' => [
+                'busena' => 'nera', 'naudojamas',
+                            ],
+    ],
+        
+             
+    [
+        'vardas' => 'Tomas',
+        'pavarde' => 'Ablomas',
+        'item' => [
+            'telefonas' => [
+                'busena' => 'nera', 'naudojamas',
+                           ],
+                  ],
+            'power_bank' => [
+                'busena' => 'nera', 'naudojamas',
+                            ],
+        
+    ],
+    [
+        'vardas' => 'Ana',
+        'pavarde' => 'Shitkova',
+        'item' => [
+            'telefonas' => [
+                'busena' => 'nera', 'naudojamas',
+                           ],
+                  ],
+            'power_bank' => [
+                'busena' => 'nera', 'naudojamas',
+                            ],
+        ]
+];
 
-var_dump($kiausinis);
-var_dump($baklazanas);
-var_dump($obuolys);
+var_dump($gyvuliai);
 ?>
 <html>
     <head>
         <title>Array</title>
     </head>
     <body>
-        
+
     </body>
 </html>
