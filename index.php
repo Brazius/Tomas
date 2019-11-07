@@ -1,40 +1,33 @@
 <?php
-$maxima = [
+$bouling = [
     0 => [
-        'preke' => [
-            'Kiausiniai' =>[
-                'kiekis' => '3',
-            ], 
-            'Grietine' => [
-                'kiekis' => '1',
-            ], 
-            'Jogurtas' => [
-                'kiekis' => '2',
-            ], 
-            'Zuvis' => [
-                'kiekis' => '0',
-            ]
-            ]
+        0 => [
+           0 => '0',
+           1 => '1',
+           2 => '1',
+           3 => '0',
+           4 => '1',
+           6 => '1',
+           7 => '1',
+           8 => '0',
+           9 => '0'
+        ]
+        
     ],
     1 => [
-        'preke' => [
-            'Pienas' => [
-                'kiekis' => '1',
-            ], 
-            'Kefyras' => [
-                'kiekis' => '0',
-            ], 
-            'Degtine' => [
-                'kiekis' => '2',
-            ], 
-            'Kecupas' => [
-                'kiekis' => '2'
-            ]]
-    ],
-    
-];
+        0 => '0',
+           1 => '1',
+           2 => '1',
+           3 => '1',
+           4 => '1',
+           6 => '1',
+           7 => '1',
+           8 => '1',
+           9 => '1'
         
-var_dump($maxima);
+    ]
+];  
+var_dump($bouling);
 ?>
 <html>
     <head>
