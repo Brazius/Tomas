@@ -1,41 +1,48 @@
 <?php
-$boulingo_takelis= [
-    0 =>[
-        'takelio_busena' => 'svarus',
-        'kegliu_busena' => [ // kegliai skaiciuojami is kairio virsutinio kampo i desine
-           0 => '0',
-           1 => '1',
-           2 => '1',
-           3 => '0',
-           4 => '1',
-           6 => '1',
-           7 => '1',
-           8 => '0',
-           9 => '0'
+$posukiai = [
+    0 => [
+        'busena' => [//posukio kryptis, kampas
+            'left' => [1, 2, 3, 4, 5, 6, 7, 8, 9],
+            'right' => [1, 2, 3, 4, 5, 6, 7, 8, 9],
         ],
-        
-        
+    ],
+    1 => [
+        'busena' => [//posukio kryptis, kampas
+            'left' => [1, 2, 3, 4, 5, 6, 7, 8, 9],
+            'right' => [1, 2, 3, 4, 5, 6, 7, 8, 9],
+        ],
+    ],
+    2 => [
+        'busena' => [//posukio kryptis, kampas
+            'left' => [1, 2, 3, 4, 5, 6, 7, 8, 9],
+            'right' => [1, 2, 3, 4, 5, 6, 7, 8, 9],
+        ],
+    ],
+    3 => [
+        'busena' => [//posukio kryptis, kampas
+            'left' => [1, 2, 3, 4, 5, 6, 7, 8, 9],
+            'right' => [1, 2, 3, 4, 5, 6, 7, 8, 9],
+        ],
+    ],
+    4 => [
+        'busena' => [//posukio kryptis, kampas
+            'left' => [1, 2, 3, 4, 5, 6, 7, 8, 9],
+            'right' => [1, 2, 3, 4, 5, 6, 7, 8, 9],
+        ],
+    ],
+    5 => [
+        'busena' => [//posukio kryptis, kampas
+            'left' => [1, 2, 3, 4, 5, 6, 7, 8, 9],
+            'right' => [1, 2, 3, 4, 5, 6, 7, 8, 9],
+        ],
     ],
     
-    1 => ['takelio_busena' => 'apmyztas',
-    'kegliu_busena' => [ // kegliai skaiciuojami is kairio virsutinio kampo i desine
-           0 => '1',
-           1 => '1',
-           2 => '1',
-           3 => '1',
-           4 => '1',
-           6 => '1',
-           7 => '1',
-           8 => '1',
-           9 => '1'  
-    ]
-    ]
-];  
-var_dump($boulingo_takelis);
+]; 
+var_dump($posukiai);
 ?>
 <html>
     <head>
-        <title>Array</title>
+        <title>Trasa</title>
     </head>
     <body>
 
