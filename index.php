@@ -16,7 +16,8 @@ $boulingo_takelis= [
         
         
     ],
-    'takelio_busena' => 'apmyztas',
+    
+    1 => ['takelio_busena' => 'apmyztas',
     'kegliu_busena' => [ // kegliai skaiciuojami is kairio virsutinio kampo i desine
            0 => '1',
            1 => '1',
@@ -27,6 +28,7 @@ $boulingo_takelis= [
            7 => '1',
            8 => '1',
            9 => '1'  
+    ]
     ]
 ];  
 var_dump($boulingo_takelis);
